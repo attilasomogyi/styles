@@ -1,2 +1,8 @@
-src/*
+docs/build
+node_modules
+.cspell/cache/cspell-cache
+report
 !src/custom
+src/*
+yarn-error.log
+.cspell/styles

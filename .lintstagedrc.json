@@ -1,0 +1,9 @@
+{
+  "*": ["cspell lint . --fail-fast", "yarn editorconfig-checker"],
+  "*.json": "yarn jsonlint",
+  "!(*jsonlintrc).json": "yarn v8r",
+  "!(*config).yml": "yarn v8r",
+  "*.md": "yarn markdownlint",
+  "./github/workflows/*.yml": "yarn actionlint",
+  "*.(md|rst|html)": "vale"
+}

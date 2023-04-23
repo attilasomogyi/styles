@@ -1,0 +1,26 @@
+{
+  "name": "vale-custom-styles",
+  "version": "1.0.0",
+  "description": "Vale custom styles for other projects.",
+  "main": "index.js",
+  "repository": "git@github.com:attilasomogyi/styles.git",
+  "author": "Attila Zsolt Somogyi",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@prantlf/jsonlint": "latest",
+    "cspell": "latest",
+    "editorconfig-checker": "latest",
+    "husky": "latest",
+    "is-ci": "latest",
+    "lint-staged": "latest",
+    "markdownlint-cli": "latest",
+    "v8r": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn is-ci || yarn husky install",
+    "test": "yarn lint-staged"
+  },
+  "dependencies": {}
+}
