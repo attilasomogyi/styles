@@ -1,6 +1,6 @@
-# Contributing to vale custom styles
+# Contributing
 
-This Project would love for you to contribute to vale custom styles and help
+This Project would love for you to contribute and help
 make it even better than it's today. As a contributor, here are the guidelines
 Project wants you to follow:
 
@@ -14,7 +14,7 @@ Project wants you to follow:
 
 ## Code of conduct
 
-Help the Project keep vale custom styles open and inclusive.
+Help the Project keep it open and inclusive.
 Please read and follow [Code of conduct][coc] of the Project.
 
 ## Question or problem
@@ -73,7 +73,7 @@ reproduction. So if the Project doesn't hear back from you, the Project is going
 that doesn't have enough info to the Project reproduces it.
 
 You can file new issues by selecting from [new issue
-templates](https://github.com/attilasomogyi/styles/issues/new/choose) of The Project
+templates](https://github.com/attilasomogyi/asterisk-configuration-files/issues/new/choose) of The Project
 and filling out the issue template.
 
 ### Submitting a pull request
@@ -89,7 +89,7 @@ Before you submit your Pull Request **PR** consider the following guidelines:
    helps to ensure that the Project is ready to accept your work.
 
 3. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
-   the attilasomogyi and styles repository.
+   the attilasomogyi and repository name.
 
 4. In your forked repository, make your changes in a new Git branch:
 
@@ -122,14 +122,14 @@ Before you submit your Pull Request **PR** consider the following guidelines:
    git push origin my-fix-branch
    ```
 
-10. In GitHub, send a pull request to `styles:main`.
+10. In GitHub, send a pull request to `repository_name:main`.
 
 ### Reviewing a pull request
 
-The vale custom styles team reserves the right not to accept pull
+The Project team reserves the right not to accept pull
 requests from community members who haven't been good citizens of the community.
-Such behavior includes not following the [vale custom styles code of
-conduct][coc] and applies within or outside of vale custom styles
+Such behavior includes not following the [Project code of
+conduct][coc] and applies within or outside of Project
 managed channels.
 
 #### Addressing review feedback
@@ -190,7 +190,7 @@ message of the last commit on your branch:
 Vou can delete your branch and pull
 the changes from the main **upstream** repository:
 
-<!-- vale Custom.TermsSuggestions = NO -->
+<!-- vale custom.terms-suggestions = NO -->
 
 - Delete the remote branch on GitHub either through the GitHub web UI or your
   local shell as follows:
@@ -217,7 +217,7 @@ the changes from the main **upstream** repository:
   git pull --ff upstream main
   ```
 
-  <!-- vale Custom.TermsSuggestions = error -->
+  <!-- vale custom.term-suggestions = error -->
 
 ## Coding rules
 
@@ -240,7 +240,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 - File name regexp select: `^[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+$`
 - Directory name regexp select: `^[a-z0-9]+(?:-[a-z0-9]+)*$`
-- Keep it as simple as possible
+- Keep it simple
 - Don’t capitalize letters
 - Use hyphens for spaces
 - Separate words with hyphens
@@ -266,7 +266,7 @@ Each commit message consists of a **header**, a **body**, and a **footer**.
 The `header` is mandatory and must conform to the [Commit Message
 Header](#commit-message-header) format.
 
-The `body` is mandatory for all commits except for those of type **docs**. When
+The `body` is mandatory for all commits except for those of classification **docs**. When
 the body is present it must be at least 20 characters long and must conform to
 the [Commit message body](#commit-message-body) format.
 
@@ -307,7 +307,7 @@ Must be one of the following:
 
 ##### Scope
 
-The scope should be the name of the npm package affected (as perceived by the
+The scope should be the name of the npm package affected (like perceived by the
 person reading the changelog generated from commit messages).
 
 The following is the list of supported scopes:
@@ -330,7 +330,7 @@ Use the summary field to give a succinct description of the change:
 
 #### Commit message body
 
-Just as in the summary, use the imperative, present tense: **fix** not **fixed** nor
+Just like in the summary, use the imperative, present tense: **fix** not **fixed** nor
 **fixes**
 
 Explain the motivation for the change in the commit message body. This commit
@@ -383,9 +383,9 @@ The content of the commit message body should contain:
   format: `This reverts commit <Secure Hash Algorithm>`,
 - a clear description of the reason for reverting the commit message.
 
-[coc]: https://github.com/attilasomogyi/styles/blob/main/CODE_OF_CONDUCT.md
+[coc]: https://github.com/attilasomogyi/asterisk-configuration-files/blob/main/CODE_OF_CONDUCT.md
 [commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
-[github]: https://github.com/attilasomogyi/styles
+[github]: https://github.com/attilasomogyi/asterisk-configuration-files
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
 [java-style-guide]: https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md
 [rust-style-guide]: https://rustc-dev-guide.rust-lang.org/conventions.html
@@ -393,5 +393,5 @@ The content of the commit message body should contain:
 [html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.html
 [py-style-guide]: https://peps.python.org/pep-0008/
 [sql-style-guide]: https://github.com/treffynnon/sqlstyle.guide/blob/gh-pages/_includes/sqlstyle.guide.md
-[dev-doc]: https://github.com/attilasomogyi/styles/blob/main/CONTRIBUTING.md
-[support]: https://github.com/attilasomogyi/styles/blob/main/SUPPORT.md
+[dev-doc]: https://github.com/attilasomogyi/asterisk-configuration-files/blob/main/CONTRIBUTING.md
+[support]: https://github.com/attilasomogyi/asterisk-configuration-files/blob/main/SUPPORT.md
