@@ -73,7 +73,7 @@ reproduction. So if the Project doesn't hear back from you, the Project is going
 that doesn't have enough info to the Project reproduces it.
 
 You can file new issues by selecting from [new issue
-templates](https://github.com/attilasomogyi/asterisk-configuration-files/issues/new/choose) of The Project
+templates](https://github.com/attilasomogyi/styles/issues/new/choose) of The Project
 and filling out the issue template.
 
 ### Submitting a pull request
@@ -383,9 +383,9 @@ The content of the commit message body should contain:
   format: `This reverts commit <Secure Hash Algorithm>`,
 - a clear description of the reason for reverting the commit message.
 
-[coc]: https://github.com/attilasomogyi/asterisk-configuration-files/blob/main/CODE_OF_CONDUCT.md
+[coc]: https://github.com/attilasomogyi/styles/blob/main/CODE_OF_CONDUCT.md
 [commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
-[github]: https://github.com/attilasomogyi/asterisk-configuration-files
+[github]: https://github.com/attilasomogyi/styles
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
 [java-style-guide]: https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md
 [rust-style-guide]: https://rustc-dev-guide.rust-lang.org/conventions.html
@@ -393,5 +393,5 @@ The content of the commit message body should contain:
 [html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.html
 [py-style-guide]: https://peps.python.org/pep-0008/
 [sql-style-guide]: https://github.com/treffynnon/sqlstyle.guide/blob/gh-pages/_includes/sqlstyle.guide.md
-[dev-doc]: https://github.com/attilasomogyi/asterisk-configuration-files/blob/main/CONTRIBUTING.md
-[support]: https://github.com/attilasomogyi/asterisk-configuration-files/blob/main/SUPPORT.md
+[dev-doc]: https://github.com/attilasomogyi/styles/blob/main/CONTRIBUTING.md
+[support]: https://github.com/attilasomogyi/styles/blob/main/SUPPORT.md
