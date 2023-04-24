@@ -1,0 +1,38 @@
+---
+name: spell-checker
+
+on:
+  workflow_dispatch:
+
+  workflow_run:
+    workflows: [auto-release]
+    types:
+      - completed
+
+jobs:
+  linkchecker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: latest
+          cache: yarn
+
+      - name: Install cspell
+        run: yarn global add cspell
+
+      - name: Spell Check Cache
+        uses: actions/cache@v3
+        with:
+          path: ./.cspell/cache/cspell-cache
+          key: ${{ runner.os }}-cspell-${{ hashFiles('**/.cspell.json') }}
+
+      - name: Spell Check
+        run: cspell lint --fail-fast .
+        shell: dash -e {0}
