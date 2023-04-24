@@ -3,6 +3,7 @@
   "*.json": "yarn jsonlint",
   "!(*jsonlintrc).json": "yarn v8r",
   "!(*config).yml": "yarn v8r",
+  "*.yml": "yamllint",
   "*.md": "yarn markdownlint",
   "./github/workflows/*.yml": "yarn actionlint",
   "*.(md|rst|html)": "vale"
