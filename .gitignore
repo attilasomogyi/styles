@@ -6,3 +6,4 @@ report
 src/*
 yarn-error.log
 .cspell/styles
+yarn.lock
