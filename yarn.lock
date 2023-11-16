@@ -1151,9 +1151,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 editorconfig-checker@latest:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/editorconfig-checker/-/editorconfig-checker-5.1.1.tgz#97b314647068b68bf1210f3d6b597c1fc9b20ded"
-  integrity sha512-IBE7K48+6jLlhfmJ0TOTjogvO9Asw+4B8CoKn71KtZ8Qrvc7/WgrMyJxQRSdq6VGdh+D65/6JuQuHioMs2O1sw==
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/editorconfig-checker/-/editorconfig-checker-5.1.2.tgz#18277e91916f662d91bc9b77ee0444955bce82c8"
+  integrity sha512-HQfoRpRWJu3OS0+sn2qaX/U7TM0zjT+ANY2HH3wkBkd5INJDI5t6toY+JshYmhfXqX7luDndFwNV7f5e9Kmb7A==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
